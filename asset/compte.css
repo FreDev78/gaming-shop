@@ -111,7 +111,7 @@ input {
   
   .flex-item2 {
     background-color: white;
-    width: 200px;
+    width: 100px;
     text-align: center;
     line-height: 10px;
     font-size: 20px;
@@ -119,23 +119,17 @@ input {
     display: flex;
     justify-content:space-around;
     gap: 100px;
-    
-    
-  }
-
-
-  .flex-item2 li {
-    gap: 10px;
     list-style-type: none;
-    background-color: white;
-  }
-
-  .flex-item2,  a {
-    color: white;
-    text-decoration: none;
+    
   }
 
   
+
+
+  .flex-item2 {
+    gap: 10px;
+  }  
+
   img {
     height: 100px;
     width: 100px;
