@@ -124,15 +124,19 @@ input {
   }
 
 
-  .flex-item2 li {
+  .flex-item1 li {
     gap: 10px;
     list-style-type: none;
-    background-color: white;
+    
   }
 
-  .flex-item2,  a {
+  .flex-item1,  a {
     color: white;
     text-decoration: none;
+  }
+
+  .flex-item2,  li {
+    list-style-type: none;
   }
 
   
