@@ -70,8 +70,40 @@
 
                 <div class="flex-item2">
                   <article class="flex-item2">
-                    <ul>
-                        courrier
+                    <ul><h1>Contacter Nous !!</h1><br><br>
+                      <form action="/" method="POST">
+
+                        <div class="formulaire_contacter">
+                            <label for="name"></label>
+                            <input id="name" name="name" required placeholder="Votre Nom et Prenom ">
+                        </div>
+                    
+                        <div class="formulaire_contacter">
+                            <label for="email"></label>
+                            <input id="email" name="email" required placeholder="votre E-mail">
+                        </div>
+                    
+                        <div class="formulaire_contacter">
+                            <div class=" objet">
+                            <label  for="subject">Objet de E-mail</label><br>
+                            </div> 
+                            <select id="subject" name="subject" required>
+                                <option value="1">Contacter le service commercial</option>
+                                <option value="2">Contacter le service technique</option>
+                                <option value="3">Autre</option>
+                            </select>
+                        </div>
+                    
+                        <div class="formulaire_contacter">
+                          <div class="objet">
+                            <label for="message">Votre message</label>
+                          </div>  
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                    
+                        <button type="submit">Envoyer</button>
+                    
+                    </form>
                    </ul>
                   </article>
                   
